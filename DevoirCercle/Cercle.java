@@ -28,13 +28,13 @@ public class Cercle {
     // Méthode qui permet de calculer et afficher la surface du cercle
     public void surface() {
         double s = Math.PI * r * r; // surface = pi * rayon au carré
-        System.out.println("La surface du cercle est " + s);
+        System.out.println("* La surface du cercle est " + Math.floor(s));
     }
 
     // Méthode qui permet de calculer et afficher le périmètre du cercle
     public void perimetre() {
         double p = 2 * Math.PI * r; // périmètre = 2 * pi * rayon
-        System.out.println("Le périmètre du cercle est " + p);
+        System.out.println("* Le périmètre du cercle est " + Math.floor(p));
     }
 
     // Méthode qui teste si un point P(x,y) du plan est à l'intérieur du cercle ou non
@@ -47,6 +47,6 @@ public class Cercle {
 
     // Méthode qui permet d'afficher un objet de la classe Cercle sous la forme Cercle [c=(a , b), r=r)]
     public void afficherCercle() {
-        System.out.println("Cercle [c=(" + a + " , " + b + "), r=" + r + ")");
+        System.out.println("* Cercle [c=(" + a + " , " + b + "), r=" + r + ")");
     }
 }
