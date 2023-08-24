@@ -1,4 +1,4 @@
-import stiPOO.*;
+import stiPOO.*; // Importation de toutes les classes du package stiPOO
 
 // Définition de la classe Test qui permet de tester les différentes classes
 public class Main {
